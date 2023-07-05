@@ -1,0 +1,49 @@
+
+.disabled-link {
+    cursor: default;
+    pointer-events: none;
+    text-decoration: none;
+}
+.h-50{
+    height: 200px !important;
+}
+.login-style{
+    border-left: 2px solid #e6e6e6;
+    margin-top: 10px;
+}
+.dropify-wrapper{
+    height: 100px !important;
+    width: 100%;
+}
+
+@media print {
+    .top_nav,
+    footer {
+        display: none;
+    }
+    .printArea {
+        visibility: visible;
+    }
+    .noPrint {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        display: none;
+        margin: 0px;
+        padding: 0px;
+    }
+    #reportTable,
+    .panel {
+        margin: 0;
+    }
+    .panel * {
+        visibility: visible;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .panel {
+        width: 100%;
+    }
+}
+
